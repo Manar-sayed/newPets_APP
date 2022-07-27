@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'package:pets/appBar_Screens/aboutUs.dart';
-import 'package:pets/Home_Screens/dog.dart';
-import 'package:pets/Home_Screens/feedYourDog.dart';
-import 'package:pets/Log/login.dart';
-import 'package:pets/appBar_Screens/request.dart';
-import 'package:pets/Home_Screens/showMore.dart';
+
+
 
 import 'Home_Screens/dobyInfo.dart';
+
+
+
 
 
 void main() {
@@ -24,7 +23,10 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
 
       debugShowCheckedModeBanner: false,
+
       home: dobyInfo(),
+
+
 
     );
   }
